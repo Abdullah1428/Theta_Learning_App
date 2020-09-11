@@ -1,0 +1,22 @@
+[
+    {
+        "subjectName": "GRE",
+        "color1": "#2c3e50",
+        "color2": "#3498db"
+    },
+    {
+        "subjectName": "GMAT",
+        "color1": "#136a8a",
+        "color2": "#267871"
+    },
+    {
+        "subjectName": "IELTS",
+        "color1": "#00B4DB",
+        "color2": "#0083B0"
+    },
+    {
+        "subjectName": "TOEFL",
+        "color1": "#833ab4",
+        "color2": "#fcb045"
+    }
+]

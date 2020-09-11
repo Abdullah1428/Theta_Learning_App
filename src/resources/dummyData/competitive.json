@@ -1,0 +1,22 @@
+[
+    {
+        "subjectName": "CSS",
+        "color1": "#1e3c72",
+        "color2": "#2a5298"
+    },
+    {
+        "subjectName": "PMS",
+        "color1": "#141E30",
+        "color2": "#243B55"
+    },
+    {
+        "subjectName": "NTS",
+        "color1": "#00B4DB",
+        "color2": "#0083B0"
+    },
+    {
+        "subjectName": "GAT",
+        "color1": "#56ab2f",
+        "color2": "#a8e063"
+    }
+]
