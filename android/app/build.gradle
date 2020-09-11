@@ -151,7 +151,7 @@ android {
             keyPassword 'android'
         }
     }
-
+    // add this packaging options to remove the error of Strip Library missing tool
     packagingOptions {
         exclude "lib/armeabi/**"
     }
