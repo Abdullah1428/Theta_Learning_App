@@ -14,3 +14,5 @@ const AppScreens = createStackNavigator(
     headerMode: 'none',
   },
 );
+
+export default createAppContainer(AppScreens);
