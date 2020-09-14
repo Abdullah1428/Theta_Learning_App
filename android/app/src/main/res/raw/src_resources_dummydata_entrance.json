@@ -1,0 +1,22 @@
+[
+    {
+        "subjectName": "ETEA (Eng)",
+        "color1": "#6D6027",
+        "color2": "#D3CBB8"
+    },
+    {
+        "subjectName": "ETEA (Med)",
+        "color1": "#E44D26",
+        "color2": "#F16529"
+    },
+    {
+        "subjectName": "MCAT",
+        "color1": "#141E30",
+        "color2": "#243B55"
+    },
+    {
+        "subjectName": "ECAT",
+        "color1": "#000000",
+        "color2": "#434343"
+    }
+]

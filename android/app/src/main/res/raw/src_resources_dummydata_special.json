@@ -1,0 +1,22 @@
+[
+    {
+        "subjectName": "Programming",
+        "color1": "#93291E",
+        "color2": "#ED213A"
+    },
+    {
+        "subjectName": "AI/ML",
+        "color1": "#141E30",
+        "color2": "#243B55"
+    },
+    {
+        "subjectName": "Data Science",
+        "color1": "#00B4DB",
+        "color2": "#0083B0"
+    },
+    {
+        "subjectName": "Algorithms",
+        "color1": "#56ab2f",
+        "color2": "#a8e063"
+    }
+]

@@ -3,7 +3,7 @@ import {createStackNavigator} from 'react-navigation-stack';
 
 import splashScreen from '../screens/splashScreen';
 
-console.disableYellowBox = true;
+//console.disableYellowBox = true;
 
 const AppScreens = createStackNavigator(
   {
