@@ -9,7 +9,7 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 
-const Profile = ({handleOnPress}) => {
+const Profile = () => {
   return (
     <View style={styles.profile}>
       <Image
@@ -17,7 +17,7 @@ const Profile = ({handleOnPress}) => {
         style={styles.img}
       />
       <View>
-        <TouchableOpacity activeOpacity={0.5} onPress={handleOnPress}>
+        <TouchableOpacity activeOpacity={0.5}>
           <Text style={styles.profileTitle}>Tariq Kamal</Text>
           <Text style={styles.profileDescription}>Class XII,Board Exam</Text>
         </TouchableOpacity>
@@ -39,42 +39,49 @@ const Profile = ({handleOnPress}) => {
 
 const styles = StyleSheet.create({
   profile: {
-    flexDirection: 'row',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   img: {
-    marginLeft: wp('5'),
-    width: 60,
-    height: 60,
-    borderRadius: 60 / 2,
+    width: 100,
+    height: 100,
+    borderRadius: 100 / 2,
     borderColor: 'white',
     borderWidth: 1,
   },
   profileTitle: {
-    marginLeft: wp('5'),
     marginTop: hp('0.5'),
     color: 'white',
     fontSize: 20,
     fontWeight: 'bold',
+    alignSelf: 'center',
   },
   profileDescription: {
     marginLeft: wp('5'),
     marginTop: hp('0.5'),
     color: 'white',
     fontSize: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   gradeSelector: {
     flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   gradeSelected: {
     marginLeft: wp('5'),
     marginTop: hp('1'),
     color: 'white',
     fontSize: 15,
+    alignSelf: 'center',
   },
   iconDown: {
     color: 'white',
     paddingTop: 8,
     paddingLeft: 10,
+    alignSelf: 'center',
   },
 });
 

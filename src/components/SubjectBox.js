@@ -6,23 +6,26 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import LinearGradient from 'react-native-linear-gradient';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 
 const SubjectBox = ({item}) => {
   return (
     <View>
-      <LinearGradient
-        colors={[item.color1, item.color2]}
-        start={{x: 0, y: 0.5}}
-        end={{x: 1, y: 0.5}}
-        style={styles.boxCircleView}>
-        <View>
-          <Image
-            source={require('../resources/images/butt.png')}
-            style={styles.logoView}
-          />
-        </View>
-      </LinearGradient>
-      <Text style={styles.subjectName}>{item.subjectName}</Text>
+      <TouchableOpacity activeOpacity={0.8}>
+        <LinearGradient
+          colors={[item.color1, item.color2]}
+          start={{x: 0, y: 0.5}}
+          end={{x: 1, y: 0.5}}
+          style={styles.boxCircleView}>
+          <View>
+            <Image
+              source={require('../resources/images/butt.png')}
+              style={styles.logoView}
+            />
+          </View>
+        </LinearGradient>
+        <Text style={styles.subjectName}>{item.subjectName}</Text>
+      </TouchableOpacity>
     </View>
   );
 };

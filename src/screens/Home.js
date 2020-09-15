@@ -21,7 +21,7 @@ import competitive from '../resources/dummyData/competitive.json';
 import speical from '../resources/dummyData/special.json';
 import foreign from '../resources/dummyData/foreign.json';
 
-const splashScreen = ({navigation}) => {
+const Home = ({navigation}) => {
   const [subjectsData, setSubjectsData] = useState([]);
   const [entranceData, setEntranceData] = useState([]);
   const [competitiveData, setCompetitiveData] = useState([]);
@@ -36,6 +36,10 @@ const splashScreen = ({navigation}) => {
     setForeigndata(foreign);
   }, []);
 
+  const handleOnPress = () => {
+    navigation.navigate('profile');
+  };
+
   return (
     <ScrollView style={styles.container}>
       <LinearGradient
@@ -43,9 +47,14 @@ const splashScreen = ({navigation}) => {
         start={{x: 0, y: 0.5}}
         end={{x: 1, y: 0.5}}
         style={styles.userSection}>
-        <Header AppTitle={'Theta Learning App'} />
+        <Header
+          AppTitle={'Theta Learning App'}
+          icon1={'menu-outline'}
+          icon2={'search-outline'}
+          icon3={'notifications-outline'}
+        />
         <View style={{marginTop: hp('5')}} />
-        <Profile />
+        <Profile handleOnPress={handleOnPress} />
         <View style={{marginTop: hp('5')}} />
       </LinearGradient>
 
@@ -131,4 +140,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default splashScreen;
+export default Home;

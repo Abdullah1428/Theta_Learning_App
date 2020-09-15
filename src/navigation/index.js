@@ -1,18 +1,26 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 
-import splashScreen from '../screens/splashScreen';
+import Home from '../screens/Home';
+import userProfile from '../screens/userProfile';
+import Settings from '../screens/Settings';
 
 //console.disableYellowBox = true;
 
 const AppScreens = createStackNavigator(
   {
-    splash: {
-      screen: splashScreen,
+    home: {
+      screen: Home,
+    },
+    profile: {
+      screen: userProfile,
+    },
+    settings: {
+      screen: Settings,
     },
   },
   {
-    initialRouteName: 'splash',
+    initialRouteName: 'home',
     headerMode: 'none',
   },
 );

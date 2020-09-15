@@ -1,0 +1,37 @@
+[
+    {
+        "subjectName": "All",
+        "color1": "#D1913C",
+        "color2": "#FFD194"
+    },
+    {
+        "subjectName": "Mathematics",
+        "color1": "#93291E",
+        "color2": "#ED213A"
+    },
+    {
+        "subjectName": "Physics",
+        "color1": "#141E30",
+        "color2": "#243B55"
+    },
+    {
+        "subjectName": "Chemistry",
+        "color1": "#00B4DB",
+        "color2": "#0083B0"
+    },
+    {
+        "subjectName": "Biology",
+        "color1": "#56ab2f",
+        "color2": "#a8e063"
+    },
+    {
+        "subjectName": "Computer",
+        "color1": "#DA22FF",
+        "color2": "#9733EE"
+    },
+    {
+        "subjectName": "Islamiat",
+        "color1": "#348F50",
+        "color2": "#56B4D3"
+    }
+]
