@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, Platform} from 'react-native';
 
 import LinearGradient from 'react-native-linear-gradient';
-import {ScrollView} from 'react-native-gesture-handler';
+import {ScrollView, TouchableOpacity} from 'react-native-gesture-handler';
 
 import Pie from 'react-native-pie';
 
@@ -34,7 +34,7 @@ const userProfile = ({navigation}) => {
   };
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <LinearGradient
         colors={['#F37335', '#FDC830']}
         start={{x: 0, y: 0.5}}
@@ -51,6 +51,48 @@ const userProfile = ({navigation}) => {
         <ProfileSection />
       </LinearGradient>
       <View style={styles.statsSection}>
+        <Text style={styles.heading}>Your Interests</Text>
+        <View style={styles.interestBoxes}>
+          <TouchableOpacity
+            activeOpacity={0.7}
+            onPress={() => navigation.navigate('interest')}>
+            <LinearGradient
+              colors={['#6190E8', '#A7BFE8']}
+              start={{x: 0, y: 0.5}}
+              end={{x: 1, y: 0.5}}
+              style={styles.interestBox}>
+              <Text style={styles.interestboxHeading}>Ai</Text>
+            </LinearGradient>
+          </TouchableOpacity>
+          <TouchableOpacity activeOpacity={0.7}>
+            <LinearGradient
+              colors={['#6190E8', '#A7BFE8']}
+              start={{x: 0, y: 0.5}}
+              end={{x: 1, y: 0.5}}
+              style={styles.interestBox}>
+              <Text style={styles.interestboxHeading}>Data Science</Text>
+            </LinearGradient>
+          </TouchableOpacity>
+          <TouchableOpacity activeOpacity={0.7}>
+            <LinearGradient
+              colors={['#6190E8', '#A7BFE8']}
+              start={{x: 0, y: 0.5}}
+              end={{x: 1, y: 0.5}}
+              style={styles.interestBox}>
+              <Text style={styles.interestboxHeading}>Programming</Text>
+            </LinearGradient>
+          </TouchableOpacity>
+          <TouchableOpacity activeOpacity={0.7}>
+            <LinearGradient
+              colors={['#6190E8', '#A7BFE8']}
+              start={{x: 0, y: 0.5}}
+              end={{x: 1, y: 0.5}}
+              style={styles.interestBox}>
+              <Text style={styles.interestboxHeading}>Statistics</Text>
+            </LinearGradient>
+          </TouchableOpacity>
+        </View>
+
         <Text style={styles.heading}>Total Watch Minutes</Text>
         <View style={styles.watchBoxes}>
           <LinearGradient
@@ -86,8 +128,8 @@ const userProfile = ({navigation}) => {
           <Text style={styles.statistics}>Overall Statistics</Text>
           <Text style={styles.header}>All Subjects</Text>
           <Pie
-            radius={100}
-            innerRadius={60}
+            radius={Platform.OS === 'ios' ? 80 : 50}
+            innerRadius={Platform.OS === 'ios' ? 50 : 20}
             sections={[
               {
                 percentage: 15,
@@ -118,7 +160,7 @@ const userProfile = ({navigation}) => {
           />
         </View>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
@@ -128,10 +170,10 @@ const styles = StyleSheet.create({
     //paddingTop: 60,
   },
   profileSection: {
-    flex: 0.35,
+    flex: 0.3,
   },
   statsSection: {
-    flex: 0.65,
+    flex: 0.7,
   },
   heading: {
     fontSize: 16,
@@ -146,7 +188,7 @@ const styles = StyleSheet.create({
   },
   box: {
     width: wp('30'),
-    height: hp('7'),
+    height: Platform.OS === 'ios' ? hp('6') : hp('6.5'),
     borderRadius: 10,
   },
   boxHeading: {
@@ -157,7 +199,7 @@ const styles = StyleSheet.create({
   },
   boxStats: {
     alignSelf: 'center',
-    paddingTop: 8,
+    paddingTop: Platform.OS === 'ios' ? 8 : 0,
     fontWeight: 'bold',
     color: 'white',
   },
@@ -177,6 +219,22 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     paddingTop: 5,
     paddingBottom: 10,
+  },
+  interestBoxes: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+  },
+  interestboxHeading: {
+    alignSelf: 'center',
+    paddingTop: Platform.OS === 'ios' ? 18 : 10,
+    fontWeight: 'bold',
+    color: 'white',
+    fontSize: 11,
+  },
+  interestBox: {
+    width: wp('20'),
+    height: Platform.OS === 'ios' ? hp('6') : hp('5'),
+    borderRadius: 10,
   },
 });
 

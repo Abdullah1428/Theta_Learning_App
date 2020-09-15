@@ -83,11 +83,11 @@ const SubjectBoxList = ({data, subjectName}) => {
 
 const styles = StyleSheet.create({
   courseMainTitle: {
-    marginTop: hp('2'),
-    marginLeft: wp('5'),
-    color: 'black',
-    fontSize: 20,
+    fontSize: 16,
     fontWeight: 'bold',
+    paddingLeft: 10,
+    paddingTop: 10,
+    paddingBottom: 10,
   },
 });
 

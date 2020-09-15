@@ -4,6 +4,8 @@ import {createStackNavigator} from 'react-navigation-stack';
 import Home from '../screens/Home';
 import userProfile from '../screens/userProfile';
 import Settings from '../screens/Settings';
+import EnrolledCourses from '../screens/EnrolledCourses';
+import interestPage from '../screens/interestPage';
 
 //console.disableYellowBox = true;
 
@@ -17,6 +19,12 @@ const AppScreens = createStackNavigator(
     },
     settings: {
       screen: Settings,
+    },
+    enrolled: {
+      screen: EnrolledCourses,
+    },
+    interest: {
+      screen: interestPage,
     },
   },
   {

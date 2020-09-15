@@ -73,6 +73,7 @@ const Home = ({navigation}) => {
         <View style={{marginTop: hp('5')}} />
       </View>
 
+      <Text style={styles.courseMainTitleVideos}>Popular Videos</Text>
       <View style={styles.videoFlex}>
         <VideoSection
           subjectName={'Physics'}
@@ -86,8 +87,17 @@ const Home = ({navigation}) => {
 
       <Text style={styles.courseMainTitle}>Popular Questions</Text>
       <View style={styles.popularQuestionsBox}>
-        <Text style={styles.popularQuestionsBoxText}>
+        <Text style={styles.popularQuestionsBoxHeading}>
           Explore some popular questions asked on Theta
+        </Text>
+        <Text style={styles.popularQuestionsBoxText}>
+          1 : What is Devops and how can it be used?
+        </Text>
+        <Text style={styles.popularQuestionsBoxText}>
+          2 : What is pythagoras theoram?
+        </Text>
+        <Text style={styles.popularQuestionsBoxText}>
+          3 : What is periodic Table?
         </Text>
       </View>
     </ScrollView>
@@ -119,7 +129,7 @@ const styles = StyleSheet.create({
   popularQuestionsBox: {
     marginTop: hp('1'),
     width: wp('90'),
-    height: hp('10'),
+    height: hp('30'),
     borderRadius: 10,
     backgroundColor: '#D3CCE3',
     alignSelf: 'center',
@@ -131,8 +141,22 @@ const styles = StyleSheet.create({
     color: 'black',
     fontSize: 16,
   },
+  popularQuestionsBoxHeading: {
+    width: wp('70'),
+    marginTop: hp('2'),
+    marginLeft: wp('5'),
+    color: 'black',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
   courseMainTitle: {
     marginTop: hp('2'),
+    marginLeft: wp('5'),
+    color: 'black',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  courseMainTitleVideos: {
     marginLeft: wp('5'),
     color: 'black',
     fontSize: 20,

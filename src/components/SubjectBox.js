@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {View, StyleSheet, Text, Image, Platform} from 'react-native';
 
 import {
@@ -19,7 +19,7 @@ const SubjectBox = ({item}) => {
           style={styles.boxCircleView}>
           <View>
             <Image
-              source={require('../resources/images/butt.png')}
+              source={require('../resources/images/maths.png')}
               style={styles.logoView}
             />
           </View>

@@ -46,7 +46,9 @@ const Settings = ({navigation}) => {
           </View>
           <View style={styles.line} />
         </TouchableOpacity>
-        <TouchableOpacity activeOpacity={0.5}>
+        <TouchableOpacity
+          activeOpacity={0.5}
+          onPress={() => navigation.navigate('enrolled')}>
           <View style={styles.settings}>
             <Text style={styles.settingText}>Enrolled Courses</Text>
             <Icons

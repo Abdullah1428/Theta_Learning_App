@@ -12,7 +12,6 @@ import {
 const VideoSection = ({subjectName, subjectTopic}) => {
   return (
     <View>
-      <Text style={styles.courseMainTitle}>Popular Videos</Text>
       <View style={styles.videoBox}>
         <Text style={styles.videoSubject}>{subjectName}</Text>
         <Icons
@@ -27,12 +26,6 @@ const VideoSection = ({subjectName, subjectTopic}) => {
 };
 
 const styles = StyleSheet.create({
-  courseMainTitle: {
-    marginLeft: wp('5'),
-    color: 'black',
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
   videoBox: {
     marginTop: hp('1'),
     width: wp('45'),

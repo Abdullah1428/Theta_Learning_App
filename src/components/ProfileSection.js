@@ -44,9 +44,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   img: {
-    width: 100,
-    height: 100,
-    borderRadius: 100 / 2,
+    width: 60,
+    height: 60,
+    borderRadius: 60 / 2,
     borderColor: 'white',
     borderWidth: 1,
   },
