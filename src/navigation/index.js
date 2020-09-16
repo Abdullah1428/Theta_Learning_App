@@ -6,6 +6,7 @@ import userProfile from '../screens/userProfile';
 import Settings from '../screens/Settings';
 import EnrolledCourses from '../screens/EnrolledCourses';
 import interestPage from '../screens/interestPage';
+import FindTutor from '../screens/FindTutor';
 
 //console.disableYellowBox = true;
 
@@ -26,9 +27,12 @@ const AppScreens = createStackNavigator(
     interest: {
       screen: interestPage,
     },
+    tutor: {
+      screen: FindTutor,
+    },
   },
   {
-    initialRouteName: 'home',
+    initialRouteName: 'tutor',
     headerMode: 'none',
   },
 );

@@ -44,25 +44,25 @@
 		00E356EE1AD99517003FC87E /* ThetaLearningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThetaLearningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ThetaLearningAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThetaLearningAppTests.m; sourceTree = "<group>"; };
-		0913D4B3BFDFC4AD0B1B62BD /* Pods-ThetaLearningApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-tvOS/Pods-ThetaLearningApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ThetaLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThetaLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ThetaLearningApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ThetaLearningApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ThetaLearningApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ThetaLearningApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ThetaLearningApp/main.m; sourceTree = "<group>"; };
+		1CF510FAB53952A99F51D525 /* Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-ThetaLearningAppTests/Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ThetaLearningApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThetaLearningApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ThetaLearningApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThetaLearningApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E8916DCA9D5BDFB69E4CDF7 /* Pods-ThetaLearningApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-tvOS/Pods-ThetaLearningApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		6F6A2449F1FE5ACDB675A380 /* libPods-ThetaLearningApp-ThetaLearningAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThetaLearningApp-ThetaLearningAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C7E6273A368824C48FE4763 /* Pods-ThetaLearningApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp.debug.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp/Pods-ThetaLearningApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7192104D187BD5D9FAAF73F6 /* Pods-ThetaLearningApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp.debug.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp/Pods-ThetaLearningApp.debug.xcconfig"; sourceTree = "<group>"; };
+		778F1731BE67450EA99B6F0E /* Pods-ThetaLearningApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-tvOSTests/Pods-ThetaLearningApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ThetaLearningApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C5877AFB86DD2D936195620 /* Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-ThetaLearningAppTests/Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		8F0F826E73DDC0A9482E37B0 /* Pods-ThetaLearningApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-tvOSTests/Pods-ThetaLearningApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FDB99C494A27FD560C5B4A8 /* Pods-ThetaLearningApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-tvOS/Pods-ThetaLearningApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		969DED66A8B792CAF0B4EBA4 /* Pods-ThetaLearningApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp.release.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp/Pods-ThetaLearningApp.release.xcconfig"; sourceTree = "<group>"; };
 		A1225E702328FFBC8E868C6C /* libPods-ThetaLearningApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThetaLearningApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A579FDFEFE51F75008B140CB /* libPods-ThetaLearningApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThetaLearningApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CA7483CB3E640ED480E43D /* libPods-ThetaLearningApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThetaLearningApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD032DA1348525FC0C32D23F /* Pods-ThetaLearningApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp.release.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp/Pods-ThetaLearningApp.release.xcconfig"; sourceTree = "<group>"; };
+		ABF81F9A49388BDA6D71822D /* Pods-ThetaLearningApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-tvOS/Pods-ThetaLearningApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B8639456250B1D5100AEA1A6 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		B8639457250B1D5100AEA1A6 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		B8639458250B1D5100AEA1A6 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
@@ -79,8 +79,8 @@
 		B8639463250B1D5200AEA1A6 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		B8639464250B1D5200AEA1A6 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		B8639465250B1D5200AEA1A6 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		CF93CE6A579B2E1E4C6560BC /* Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-ThetaLearningAppTests/Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E036479F309C72E9DCA1D20B /* Pods-ThetaLearningApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-tvOSTests/Pods-ThetaLearningApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4CB212C437CFA650214C2E5 /* Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-ThetaLearningAppTests/Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAB4A0F23C250A6340E6B493 /* Pods-ThetaLearningApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThetaLearningApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ThetaLearningApp-tvOSTests/Pods-ThetaLearningApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -152,21 +152,6 @@
 			name = ThetaLearningApp;
 			sourceTree = "<group>";
 		};
-		26AB9F6A86C105846560D121 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7C7E6273A368824C48FE4763 /* Pods-ThetaLearningApp.debug.xcconfig */,
-				AD032DA1348525FC0C32D23F /* Pods-ThetaLearningApp.release.xcconfig */,
-				CF93CE6A579B2E1E4C6560BC /* Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig */,
-				8C5877AFB86DD2D936195620 /* Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig */,
-				0913D4B3BFDFC4AD0B1B62BD /* Pods-ThetaLearningApp-tvOS.debug.xcconfig */,
-				4E8916DCA9D5BDFB69E4CDF7 /* Pods-ThetaLearningApp-tvOS.release.xcconfig */,
-				8F0F826E73DDC0A9482E37B0 /* Pods-ThetaLearningApp-tvOSTests.debug.xcconfig */,
-				E036479F309C72E9DCA1D20B /* Pods-ThetaLearningApp-tvOSTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +163,22 @@
 				A9CA7483CB3E640ED480E43D /* libPods-ThetaLearningApp-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F1C4D126FE9DE6B16FC1168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7192104D187BD5D9FAAF73F6 /* Pods-ThetaLearningApp.debug.xcconfig */,
+				969DED66A8B792CAF0B4EBA4 /* Pods-ThetaLearningApp.release.xcconfig */,
+				1CF510FAB53952A99F51D525 /* Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig */,
+				C4CB212C437CFA650214C2E5 /* Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig */,
+				ABF81F9A49388BDA6D71822D /* Pods-ThetaLearningApp-tvOS.debug.xcconfig */,
+				8FDB99C494A27FD560C5B4A8 /* Pods-ThetaLearningApp-tvOS.release.xcconfig */,
+				778F1731BE67450EA99B6F0E /* Pods-ThetaLearningApp-tvOSTests.debug.xcconfig */,
+				CAB4A0F23C250A6340E6B493 /* Pods-ThetaLearningApp-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -196,7 +197,7 @@
 				00E356EF1AD99517003FC87E /* ThetaLearningAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				26AB9F6A86C105846560D121 /* Pods */,
+				6F1C4D126FE9DE6B16FC1168 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -711,7 +712,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF93CE6A579B2E1E4C6560BC /* Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig */;
+			baseConfigurationReference = 1CF510FAB53952A99F51D525 /* Pods-ThetaLearningApp-ThetaLearningAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -734,7 +735,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C5877AFB86DD2D936195620 /* Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig */;
+			baseConfigurationReference = C4CB212C437CFA650214C2E5 /* Pods-ThetaLearningApp-ThetaLearningAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -754,7 +755,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C7E6273A368824C48FE4763 /* Pods-ThetaLearningApp.debug.xcconfig */;
+			baseConfigurationReference = 7192104D187BD5D9FAAF73F6 /* Pods-ThetaLearningApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -777,7 +778,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD032DA1348525FC0C32D23F /* Pods-ThetaLearningApp.release.xcconfig */;
+			baseConfigurationReference = 969DED66A8B792CAF0B4EBA4 /* Pods-ThetaLearningApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -798,7 +799,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0913D4B3BFDFC4AD0B1B62BD /* Pods-ThetaLearningApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = ABF81F9A49388BDA6D71822D /* Pods-ThetaLearningApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -826,7 +827,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E8916DCA9D5BDFB69E4CDF7 /* Pods-ThetaLearningApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 8FDB99C494A27FD560C5B4A8 /* Pods-ThetaLearningApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -854,7 +855,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F0F826E73DDC0A9482E37B0 /* Pods-ThetaLearningApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 778F1731BE67450EA99B6F0E /* Pods-ThetaLearningApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -881,7 +882,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E036479F309C72E9DCA1D20B /* Pods-ThetaLearningApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = CAB4A0F23C250A6340E6B493 /* Pods-ThetaLearningApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
