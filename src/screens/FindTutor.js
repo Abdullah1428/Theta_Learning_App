@@ -218,6 +218,7 @@ const FindTutor = ({navigation}) => {
           <View>
             <Text style={styles.sectionHeader}>Price Range</Text>
             <TextInput
+              style={styles.Input}
               placeholder={'2000 - 3000'}
               placeholderTextColor="white"
               underlineColorAndroid="transparent"
@@ -227,6 +228,18 @@ const FindTutor = ({navigation}) => {
             />
             <View style={styles.line} />
           </View>
+
+          <TouchableOpacity
+            activeOpacity={0.6}
+            onPress={() => console.log('forward')}>
+            <LinearGradient
+              colors={['#FF512F', '#F09819']}
+              start={{x: 0, y: 0.5}}
+              end={{x: 1, y: 0.5}}
+              style={styles.forwardButton}>
+              <Text style={styles.buttonText}>Find Tutor</Text>
+            </LinearGradient>
+          </TouchableOpacity>
 
           {/*
           <View>
@@ -463,6 +476,26 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     paddingTop: Platform.OS === 'ios' ? 25 : 13,
+    alignSelf: 'center',
+  },
+  Input: {
+    marginLeft: wp('10'),
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: 'white',
+  },
+  forwardButton: {
+    width: wp('40'),
+    height: hp('8'),
+    borderRadius: 10,
+    alignSelf: 'center',
+    marginTop: hp('2'),
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 20,
+    fontWeight: 'bold',
+    paddingTop: Platform.OS === 'ios' ? 20 : 12,
     alignSelf: 'center',
   },
 });

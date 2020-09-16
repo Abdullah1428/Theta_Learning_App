@@ -32,7 +32,7 @@ const AppScreens = createStackNavigator(
     },
   },
   {
-    initialRouteName: 'tutor',
+    initialRouteName: 'home',
     headerMode: 'none',
   },
 );

@@ -40,7 +40,7 @@ function infinteScroll(dataList) {
 }
 */
 
-const SubjectBoxList = ({data, subjectName}) => {
+const SubjectBoxList = ({data, subjectName, handleSubjectNavigation}) => {
   const scrollX = new Animated.Value(0);
   let position = Animated.divide(scrollX, width);
 
@@ -66,7 +66,12 @@ const SubjectBoxList = ({data, subjectName}) => {
           showsHorizontalScrollIndicator={false}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => {
-            return <SubjectBox item={item} />;
+            return (
+              <SubjectBox
+                item={item}
+                handleSubjectNavigation={handleSubjectNavigation}
+              />
+            );
           }}
           onScroll={Animated.event(
             [{nativeEvent: {contentOffset: {x: scrollX}}}],

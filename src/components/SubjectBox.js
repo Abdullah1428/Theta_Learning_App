@@ -8,10 +8,10 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 
-const SubjectBox = ({item}) => {
+const SubjectBox = ({item, handleSubjectNavigation}) => {
   return (
     <View>
-      <TouchableOpacity activeOpacity={0.8}>
+      <TouchableOpacity activeOpacity={0.8} onPress={handleSubjectNavigation}>
         <LinearGradient
           colors={[item.color1, item.color2]}
           start={{x: 0, y: 0.5}}

@@ -40,6 +40,10 @@ const Home = ({navigation}) => {
     navigation.navigate('profile');
   };
 
+  const handleSubjectNavigation = () => {
+    navigation.navigate('tutor');
+  };
+
   return (
     <ScrollView style={styles.container}>
       <LinearGradient
@@ -61,7 +65,11 @@ const Home = ({navigation}) => {
       <View style={styles.courseSection}>
         <Text style={styles.greeting}>Hi, what would you learn today?</Text>
         <View>
-          <SubjectBoxList data={subjectsData} subjectName={'Course Subjects'} />
+          <SubjectBoxList
+            data={subjectsData}
+            subjectName={'Course Subjects'}
+            handleSubjectNavigation={handleSubjectNavigation}
+          />
           <SubjectBoxList data={entranceData} subjectName={'Entrance Exams'} />
           <SubjectBoxList data={foreignData} subjectName={'Foreign Exams'} />
           <SubjectBoxList
